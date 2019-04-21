@@ -14,9 +14,14 @@ class ViewController: UIViewController {
     @IBOutlet weak var descLabel: UILabel!
     @IBOutlet weak var detailedDescLabel: UILabel!
     
+    let movie = Movie(title: incrediblesTitle,
+                      description: incrediblesDescription,
+                      detailedDescription: incrediblesDetailedDescription)
     
     @IBAction func updateBtnWasPressed(_ sender: Any) {
-        
+        titleLabel.text = movie.title
+        descLabel.text = movie.description
+        detailedDescLabel.text = movie.detailedDescription
     }
     
     

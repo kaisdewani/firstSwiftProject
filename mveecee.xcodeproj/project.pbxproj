@@ -13,6 +13,8 @@
 		92E62D61226CD76A00E32B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92E62D60226CD76A00E32B12 /* Assets.xcassets */; };
 		92E62D64226CD76A00E32B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92E62D62226CD76A00E32B12 /* LaunchScreen.storyboard */; };
 		92E62D6F226CE47500E32B12 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E62D6E226CE47500E32B12 /* CustomView.swift */; };
+		92E62D71226CE86D00E32B12 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E62D70226CE86D00E32B12 /* Movie.swift */; };
+		92E62D7E226CEB9300E32B12 /* incredibles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92E62D7D226CEB9300E32B12 /* incredibles.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		92E62D63226CD76A00E32B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92E62D65226CD76A00E32B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92E62D6E226CE47500E32B12 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		92E62D70226CE86D00E32B12 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		92E62D7D226CEB9300E32B12 /* incredibles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = incredibles.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		92E62D58226CD76600E32B12 /* mveecee */ = {
 			isa = PBXGroup;
 			children = (
+				92E62D7C226CEB6600E32B12 /* Helpers */,
 				92E62D6B226CD9D800E32B12 /* Model */,
 				92E62D6C226CD9DF00E32B12 /* View */,
 				92E62D6D226CD9E400E32B12 /* Controller */,
@@ -71,6 +76,7 @@
 		92E62D6B226CD9D800E32B12 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				92E62D70226CE86D00E32B12 /* Movie.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -89,6 +95,14 @@
 				92E62D5B226CD76600E32B12 /* ViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		92E62D7C226CEB6600E32B12 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				92E62D7D226CEB9300E32B12 /* incredibles.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +178,8 @@
 			files = (
 				92E62D6F226CE47500E32B12 /* CustomView.swift in Sources */,
 				92E62D5C226CD76600E32B12 /* ViewController.swift in Sources */,
+				92E62D7E226CEB9300E32B12 /* incredibles.swift in Sources */,
+				92E62D71226CE86D00E32B12 /* Movie.swift in Sources */,
 				92E62D5A226CD76600E32B12 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
